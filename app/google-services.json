@@ -1,20 +1,20 @@
 {
   "project_info": {
-    "project_number": "685506139442",
-    "project_id": "bilqis-idn-school-project",
-    "storage_bucket": "bilqis-idn-school-project.appspot.com"
+    "project_number": "796157529275",
+    "project_id": "koken-ba7b0",
+    "storage_bucket": "koken-ba7b0.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:685506139442:android:c13012548b5dda9061b32b",
+        "mobilesdk_app_id": "1:796157529275:android:2901a71831d28c346fed9e",
         "android_client_info": {
           "package_name": "com.kei.kokenv2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "685506139442-fnl5ah0pobmbj1adstau39m99hqc4pla.apps.googleusercontent.com",
+          "client_id": "796157529275-3a7onuapkn4103j3lsb6naquv7b3bo6f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.kei.kokenv2",
@@ -22,94 +22,20 @@
           }
         },
         {
-          "client_id": "685506139442-479qb9uhuqasdigdap52qotk475cv255.apps.googleusercontent.com",
+          "client_id": "796157529275-5dkopt21t55vdus14mco50bt6b04ndcu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB8FgBS1pT8hdxeM7ff1KpPaxme2uBlOHM"
+          "current_key": "AIzaSyB7z1p1pTR8z65zA2wnkRV9r8qq55pq2Q8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "685506139442-479qb9uhuqasdigdap52qotk475cv255.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:685506139442:android:a803a7ecf4020e3061b32b",
-        "android_client_info": {
-          "package_name": "com.muflihunnisa.authapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "685506139442-r4s9vp1cimu6cn10flkq1k4u30aa03au.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.muflihunnisa.authapp",
-            "certificate_hash": "a15dafdd9e3040ecad2942e520c98cff2c877aef"
-          }
-        },
-        {
-          "client_id": "685506139442-479qb9uhuqasdigdap52qotk475cv255.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB8FgBS1pT8hdxeM7ff1KpPaxme2uBlOHM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "685506139442-479qb9uhuqasdigdap52qotk475cv255.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:685506139442:android:6c850fc8d37177b161b32b",
-        "android_client_info": {
-          "package_name": "com.muflihunnisa.recipeapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "685506139442-902d365fd5stf8ha8206bei0f03p2u9l.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.muflihunnisa.recipeapp",
-            "certificate_hash": "a15dafdd9e3040ecad2942e520c98cff2c877aef"
-          }
-        },
-        {
-          "client_id": "685506139442-479qb9uhuqasdigdap52qotk475cv255.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB8FgBS1pT8hdxeM7ff1KpPaxme2uBlOHM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "685506139442-479qb9uhuqasdigdap52qotk475cv255.apps.googleusercontent.com",
+              "client_id": "796157529275-5dkopt21t55vdus14mco50bt6b04ndcu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
