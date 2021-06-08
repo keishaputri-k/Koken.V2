@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.KokenV2">
-        <activity android:name=".ui.authentication.RegisterActivity"></activity>
+        <activity android:name=".ui.authentication.RegisterActivity" />
         <activity android:name=".ui.authentication.LoginActivity" />
         <activity android:name=".ui.authentication.SplashActivity" />
         <activity
