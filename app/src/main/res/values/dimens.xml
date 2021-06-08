@@ -7,4 +7,5 @@
     <dimen name="_30dp">30dp</dimen>
     <dimen name="_25dp">25dp</dimen>
     <dimen name="_350dp">350dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
 </resources>

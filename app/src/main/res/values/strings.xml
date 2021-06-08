@@ -54,4 +54,16 @@
     <string name="text_sign_in_button">Sign In</string>
     <string name="don_t_have_an_account">Don\'t have an account?</string>
     <string name="sign_up">Sign up</string>
+    <string name="fullname">Fullname</string>
+    <string name="txt_fullname">Please enter your fullname</string>
+    <string name="username">Username</string>
+    <string name="txt_username">Please enter your username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="txt_confirm_password">Please confirm your password</string>
+    <string name="text_regis_button">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="error_text">Not empty</string>
+    <string name="error_pass">Password Mismatch</string>
+    <string name="text_user">Users</string>
+    <string name="error_register">Register Failed</string>
 </resources>
