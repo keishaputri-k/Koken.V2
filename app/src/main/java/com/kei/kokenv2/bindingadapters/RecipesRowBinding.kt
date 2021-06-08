@@ -11,6 +11,7 @@ import androidx.navigation.findNavController
 import coil.load
 import com.kei.kokenv2.R
 import com.kei.kokenv2.model.Result
+import com.kei.kokenv2.ui.fragments.recipes.RecipesFragmentDirections
 import org.jsoup.Jsoup
 import java.lang.Exception
 

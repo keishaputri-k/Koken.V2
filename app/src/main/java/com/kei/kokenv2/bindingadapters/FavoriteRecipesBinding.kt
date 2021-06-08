@@ -5,7 +5,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.kei.kokenv2.adapter.FavoriteRecipesAdapter
+import com.kei.kokenv2.adapter.FavoritesRecipesAdapter
 import com.kei.kokenv2.data.database.entities.FavoritesEntity
 
 class FavoriteRecipesBinding {
@@ -19,7 +19,7 @@ class FavoriteRecipesBinding {
         fun setDataAndViewVisibility(
             view: View,
             favoritesEntity: List<FavoritesEntity>?,
-            mAdapter: FavoriteRecipesAdapter?
+            mAdapter: FavoritesRecipesAdapter?
         ) {
             if (favoritesEntity.isNullOrEmpty()) {
                 when (view) {

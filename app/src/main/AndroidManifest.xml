@@ -12,19 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KokenV2">
-        <activity android:name=".ui.RegisterActivity"></activity>
-        <activity android:name=".ui.LoginActivity" />
-        <activity android:name=".ui.SplashActivity">
+        <activity android:name=".ui.authentication.RegisterActivity"></activity>
+        <activity android:name=".ui.authentication.LoginActivity" />
+        <activity android:name=".ui.authentication.SplashActivity" />
+        <activity
+            android:name=".ui.DetailActivity"
+            android:label="Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/DetailsActivityStyle"/>
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.DetailActivity" />
-        <activity android:name=".ui.MainActivity">
-
-        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

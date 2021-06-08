@@ -10,14 +10,15 @@ import com.google.android.material.snackbar.Snackbar
 import com.kei.kokenv2.R
 import com.kei.kokenv2.data.database.entities.FavoritesEntity
 import com.kei.kokenv2.databinding.FavoriteRecipesRowLayoutBinding
+import com.kei.kokenv2.ui.fragments.favorites.FragmentFavoriteRecipesDirections
 import com.kei.kokenv2.util.RecipesDiffUtil
 import com.kei.kokenv2.viewmodels.MainViewModel
 import kotlinx.android.synthetic.main.favorite_recipes_row_layout.view.*
 
-class FavoriteRecipesAdapter(
+class FavoritesRecipesAdapter(
     private val requireActivity: FragmentActivity,
     private val mainViewModel: MainViewModel
-) : RecyclerView.Adapter<FavoriteRecipesAdapter.MyViewHolder>(), ActionMode.Callback {
+) : RecyclerView.Adapter<FavoritesRecipesAdapter.MyViewHolder>(), ActionMode.Callback {
     //pada deklarasi kelas ini  Adapter bertanggung jawab memanggil konstruktor superclassnya,Recyclerview
     private var multiSelection = false
 
@@ -65,7 +66,7 @@ class FavoriteRecipesAdapter(
                 applySelection(holder, currentRecipe)
             } else {
                 val action =
-                    FavoriteRecipesFragmentDirections.actionFavoriteRecipesFragmentToDetailsActivity(
+                    FragmentFavoriteRecipesDirections.actionFavoriteRecipesFragmentToDetailsActivity(
                         currentRecipe.result
                     )
                 holder.itemView.findNavController().navigate(action)

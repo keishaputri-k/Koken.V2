@@ -1,4 +1,4 @@
-package com.kei.kokenv2.ui
+package com.kei.kokenv2.ui.authentication
 
 import android.app.ProgressDialog
 import android.content.Context
@@ -17,6 +17,7 @@ import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.kei.kokenv2.R
+import com.kei.kokenv2.ui.MainActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
