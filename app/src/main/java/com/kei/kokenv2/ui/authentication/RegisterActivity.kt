@@ -1,4 +1,4 @@
-package com.kei.kokenv2.ui
+package com.kei.kokenv2.ui.authentication
 
 import android.content.Context
 import android.content.Intent
