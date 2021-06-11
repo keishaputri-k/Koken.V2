@@ -17,7 +17,13 @@
         android:theme="@style/Theme.KokenV2">
         <activity android:name=".ui.authentication.RegisterActivity" />
         <activity android:name=".ui.authentication.LoginActivity" />
-        <activity android:name=".ui.authentication.SplashActivity" />
+        <activity android:name=".ui.authentication.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ui.DetailActivity"
             android:label="Details"
@@ -26,11 +32,6 @@
         <activity
             android:name=".ui.MainActivity"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <meta-data
             android:name="preloaded_fonts"
