@@ -54,4 +54,9 @@
             android:name="result"
             app:argType="com.kei.kokenv2.model.Result" />
     </activity>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.kei.kokenv2.ui.fragments.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
