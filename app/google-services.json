@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "796157529275",
-    "project_id": "koken-ba7b0",
-    "storage_bucket": "koken-ba7b0.appspot.com"
+    "project_number": "125945617129",
+    "project_id": "koken-bce91",
+    "storage_bucket": "koken-bce91.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:796157529275:android:2901a71831d28c346fed9e",
+        "mobilesdk_app_id": "1:125945617129:android:3f058f267b9d2b8868ae78",
         "android_client_info": {
           "package_name": "com.kei.kokenv2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "796157529275-3a7onuapkn4103j3lsb6naquv7b3bo6f.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.kei.kokenv2",
-            "certificate_hash": "a15dafdd9e3040ecad2942e520c98cff2c877aef"
-          }
-        },
-        {
-          "client_id": "796157529275-5dkopt21t55vdus14mco50bt6b04ndcu.apps.googleusercontent.com",
+          "client_id": "125945617129-nrk3l1ck4c66jpj8iat50evphe9lo2hf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB7z1p1pTR8z65zA2wnkRV9r8qq55pq2Q8"
+          "current_key": "AIzaSyBFUEkKNZGCVtHtG-5N1b4XZMGa769NbEE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "796157529275-5dkopt21t55vdus14mco50bt6b04ndcu.apps.googleusercontent.com",
+              "client_id": "125945617129-nrk3l1ck4c66jpj8iat50evphe9lo2hf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.activity_register.*
 class RegisterActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var mAuth: FirebaseAuth
     private lateinit var refUsers: DatabaseReference
-    private var firebaseUserId: String = ""
+    private var firebaseUserId: String = " "
 
     companion object {
         fun getLaunchService(from: Context) = Intent(from, RegisterActivity::class.java).apply {
@@ -42,10 +42,10 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun signUpUser() {
-        val fullName: String = et_name.text.toString()
-        val email: String = et_email_signup.editText.toString()
-        val password: String = et_password_signup.text.toString()
-        val confirmPassword: String = et_confirm_pass_signup.editText.toString()
+        val fullName: String = et_name.text.toString().trim()
+        val email: String = et_email_signup.text.toString().trim()
+        val password: String = et_password_signup.text.toString().trim()
+        val confirmPassword: String = et_confirm_signup.text.toString().trim()
         if (fullName == "") {
             Toast.makeText(this, getString(R.string.error_text), Toast.LENGTH_SHORT).show()
         } else if (email == "") {

@@ -49,7 +49,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         tv_sign_up.setOnClickListener(this)
         configurationGoogleSignIn()
-        setUpRequestUI()
         firebaseAuth = FirebaseAuth.getInstance()
 
         btn_signin.setOnClickListener {
@@ -109,15 +108,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
             .requestEmail()
             .build()
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso)
-    }
-
-    private fun setUpRequestUI() {
-        btn_google_sign_in.setOnClickListener { signIn() }
-    }
-
-    private fun signIn() {
-        val intent : Intent = mGoogleSignInClient.signInIntent
-        startActivityForResult(intent, RC_SIGN_IN)
     }
 
     override fun onClick(p0: View) {
