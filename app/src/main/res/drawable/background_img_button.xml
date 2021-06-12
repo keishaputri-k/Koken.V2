@@ -9,5 +9,4 @@
         android:right="@dimen/_8dp"
         android:left="@dimen/_8dp"
         android:bottom="@dimen/_8dp"/>
-
 </shape>

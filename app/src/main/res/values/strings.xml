@@ -67,8 +67,14 @@
     <string name="text_user">Users</string>
     <string name="error_register">Register Failed</string>
     <string name="txt_profile">Profile</string>
-    <string name="logout">Log out</string>
-    <string name="email_profile">Email</string>
-    <string name="name">Name</string>
     <string name="profile">Profile</string>
+    <string name="name">name</string>
+    <string name="email_profile">Email</string>
+    <string name="account">Account</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="change_account">Change Account</string>
+    <string name="language">Language</string>
+    <string name="setting">Settings</string>
+    <string name="privacy_and_setting">Privacy and Settings</string>
+    <string name="logout">Logout</string>
 </resources>
