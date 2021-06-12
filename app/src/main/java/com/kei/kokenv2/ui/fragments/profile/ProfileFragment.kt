@@ -23,13 +23,19 @@ class ProfileFragment : Fragment(), View.OnClickListener {
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
         }
         fun newInstance() =
-                ProfileFragment().apply {
-                    arguments = Bundle().apply {}
-                }
+            ProfileFragment().apply {
+                arguments = Bundle().apply {}
+            }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        arguments?.let {
+        }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         tv_logout.setOnClickListener(this)
         firebaseUser = FirebaseAuth.getInstance().currentUser
         refUsers = FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser!!.uid)
@@ -69,4 +75,17 @@ class ProfileFragment : Fragment(), View.OnClickListener {
 //        ))
         FirebaseAuth.getInstance().signOut()
     }
-}
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_profile, container, false)
+    }
+        fun newInstance(param1: String, param2: String) =
+            ProfileFragment().apply {
+                arguments = Bundle().apply {
+                }
+            }
+    }

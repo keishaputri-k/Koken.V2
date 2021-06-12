@@ -64,7 +64,7 @@ class RecipesRowBinding {
                         view.setTextColor(
                             ContextCompat.getColor(
                                 view.context,
-                                R.color.green
+                                R.color.main
                             )
                         )
                     }
@@ -72,7 +72,7 @@ class RecipesRowBinding {
                         view.setColorFilter(
                             ContextCompat.getColor(
                                 view.context,
-                                R.color.green
+                                R.color.main
                             )
                         )
                     }

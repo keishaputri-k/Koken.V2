@@ -82,7 +82,6 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="12dp"
-        android:fontFamily="@font/courgette"
         android:text="Title"
         android:textColor="@color/titleColor"
         android:textSize="22sp"

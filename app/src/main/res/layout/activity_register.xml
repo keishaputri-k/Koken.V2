@@ -10,7 +10,9 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="128dp"
+        android:contentDescription="@string/image_view"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/login_vector" />
 
@@ -63,6 +65,8 @@
             android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="@color/main"
             android:hint="@string/txt_fullname"
             android:inputType="text" />
 
@@ -102,7 +106,9 @@
             android:id="@+id/et_email_signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/txt_username"
+            android:textColorHint="@color/main"
+            android:hint="@string/txt_email"
+            android:textColor="@color/black"
             android:inputType="textEmailAddress" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -141,6 +147,8 @@
             android:id="@+id/et_password_signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColorHint="@color/main"
+            android:textColor="@color/black"
             android:hint="@string/txt_password"
             android:inputType="textPassword" />
 
@@ -180,6 +188,8 @@
             android:id="@+id/et_confirm_signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textColorHint="@color/main"
             android:hint="@string/txt_confirm_password"
             android:inputType="textPassword" />
 

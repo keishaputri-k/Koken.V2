@@ -57,6 +57,6 @@
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.kei.kokenv2.ui.fragments.profile.ProfileFragment"
-        android:label="fragment_profile"
+        android:label="Profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

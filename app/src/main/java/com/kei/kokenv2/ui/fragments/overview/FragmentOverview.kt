@@ -35,33 +35,33 @@ class FragmentOverview : Fragment() {
         }
 
         if(myBundle?.vegetarian == true){
-            view.vegetarian_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.green))
-            view.vegetarian_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.green))
+            view.vegetarian_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.main))
+            view.vegetarian_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.main))
         }
 
         if(myBundle?.vegan == true){
-            view.vegan_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.green))
-            view.vegan_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.green))
+            view.vegan_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.main))
+            view.vegan_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.main))
         }
 
         if(myBundle?.glutenFree == true){
-            view.gluten_free_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.green))
-            view.gluten_free_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.green))
+            view.gluten_free_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.main))
+            view.gluten_free_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.main))
         }
 
         if(myBundle?.dairyFree == true){
-            view.dairy_free_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.green))
-            view.dairy_free_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.green))
+            view.dairy_free_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.main))
+            view.dairy_free_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.main))
         }
 
         if(myBundle?.veryHealthy == true){
-            view.healthy_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.green))
-            view.healthy_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.green))
+            view.healthy_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.main))
+            view.healthy_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.main))
         }
 
         if(myBundle?.cheap == true){
-            view.cheap_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.green))
-            view.cheap_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.green))
+            view.cheap_imageView.setColorFilter(ContextCompat.getColor(requireContext(), R.color.main))
+            view.cheap_textView.setTextColor(ContextCompat.getColor(requireContext(), R.color.main))
         }
 
         return view

@@ -53,7 +53,6 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="12dp"
                 android:text="Name"
-                android:fontFamily="@font/courgette"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/titleColor"
