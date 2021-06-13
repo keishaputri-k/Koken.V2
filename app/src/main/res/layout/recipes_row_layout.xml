@@ -26,6 +26,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/background_color"
             app:layout_constraintTop_toTopOf="parent"
             app:strokeColor="@color/strokeColor"
             app:strokeWidth="1dp">

@@ -25,7 +25,7 @@
     <fragment
         android:id="@+id/favoriteRecipesFragment"
         android:name="com.kei.kokenv2.ui.fragments.favorites.FragmentFavoriteRecipes"
-        android:label="Favorites"
+        android:label="Saved"
         tools:layout="@layout/fragment_favorite_recipes" >
         <action
             android:id="@+id/action_favoriteRecipesFragment_to_detailsActivity"

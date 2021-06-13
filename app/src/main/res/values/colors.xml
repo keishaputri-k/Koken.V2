@@ -47,5 +47,6 @@
     <color name="bottomNavBackground">@color/white</color>
     <color name="bottomNavItemColor">@color/darkGray</color>
     <color name="bottomNavCheckedItemColor">@color/colorPrimary</color>
+    <color name="background_color">#F3F3F3</color>
 
 </resources>
