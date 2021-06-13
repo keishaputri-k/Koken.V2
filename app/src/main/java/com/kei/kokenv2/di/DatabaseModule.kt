@@ -10,11 +10,10 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Singleton
-////Membuat anotasi kelas yang berkontribusi pada grafik objek.
+//Membuat anotasi kelas yang berkontribusi pada grafik objek.
 @Module
-////Anotasi yang menyatakan komponen mana yang harus disertakan dalam kelas anotasi saat Hilt
-//// menghasilkan komponen. Ini hanya dapat digunakan dengan kelas yang dianotasikan dengan
-//// @Module atau @EntryPoint.
+//Anotasi yang menyatakan komponen mana yang harus disertakan dalam kelas anotasi saat Hilt menghasilkan komponen.
+//  Ini hanya dapat digunakan dengan kelas yang dianotasikan dengan @Module atau @EntryPoint.
 @InstallIn(ApplicationComponent::class)
 object DatabaseModule {
     // Singleton merupakan sebuah obyek atau class pada bahasa pemrograman berbasis Object Oriented

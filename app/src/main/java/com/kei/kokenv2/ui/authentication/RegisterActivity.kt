@@ -68,7 +68,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
                     userHashMap["email"] = email
                     userHashMap["photo"] = ""
 
-                    refUsers.updateChildren(userHashMap).addOnCompleteListener { it ->
+                    refUsers.updateChildren(userHashMap).addOnCompleteListener {
                         if (it.isSuccessful) {
                             startActivity(Intent(MainActivity.getLaunchService(this)))
                             finish()
