@@ -16,10 +16,9 @@ import javax.inject.Singleton
 //  Ini hanya dapat digunakan dengan kelas yang dianotasikan dengan @Module atau @EntryPoint.
 @InstallIn(ApplicationComponent::class)
 object DatabaseModule {
-    // Singleton merupakan sebuah obyek atau class pada bahasa pemrograman berbasis Object Oriented
-// Programming. Class ini hanya dapat memiliki satu buah instance selama program berjalan.
-// Kita tidak diperbolehkan membuat class secara langsung melalui keyword new, dan hanya bisa
-// mengakses melalui instance yang telah disediakan
+    // Singleton merupakan sebuah obyek atau class pada bahasa pemrograman berbasis Object Oriented Programming.
+// Class ini hanya dapat memiliki satu buah instance selama program berjalan.
+// Kita tidak diperbolehkan membuat class secara langsung melalui keyword new, dan hanya bisa mengakses melalui instance yang telah disediakan
     @Singleton
     //Membuat anotasi metode modul untuk membuat pengikatan metode penyedia.
     @Provides
